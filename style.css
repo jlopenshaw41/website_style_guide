@@ -8,7 +8,11 @@ font-family: 'Playfair Display', serif;
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	background-color: #E9EEE6;
 }
 
 main {
@@ -17,6 +21,8 @@ main {
 }
 
 nav {
+	display: inline-flex;
+	justify-content: center;
 	position: fixed;
 	background-color: rgba(255, 255, 255, 0.9);
 	z-index: 10;
@@ -27,11 +33,14 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	border: solid 1px gray;
+	border: solid 1px lightgray;
 	padding: 10px;
 	margin: 10px 20px;
-	float: right;
 	font-weight: bold;
+	width: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8rem;
 }
 
 .heading {
@@ -39,6 +48,13 @@ nav ul li {
 	margin: 30px;
 	text-align: center;
 	padding: 60px;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.heading h2 {
+	color: darkgray;
+	text-transform: uppercase;
+	font-size: 1.2rem;
 }
 
 .colours {
@@ -46,6 +62,8 @@ nav ul li {
 	margin: 30px;
 	text-align: center;
 	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.75);
+
 }
 
 .colours div {
@@ -72,11 +90,28 @@ nav ul li {
 	background-color: #B5999D;
 }
 
+.base-colour-peach {
+	background-color: #FFF2F4;
+}
+
+.main-colour-peach {
+	background-color: #FFC0B9;
+}
+
+.accent-1-peach {
+	background-color: #FF8679;
+}
+
+.accent-2-peach {
+	background-color: #fff88a;
+}
+
 .fonts {
 	border: 2px solid lightgray;
 	margin: 30px;
 	text-align: center;
 	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.75);
 }
 
 .fonts div {
@@ -91,6 +126,7 @@ nav ul li {
 	margin: 30px;
 	text-align: center;
 	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.75);
 }
 
 .text-styles div {
