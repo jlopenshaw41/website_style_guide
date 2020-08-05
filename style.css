@@ -58,9 +58,11 @@ nav ul li {
 }
 
 .container {
-	display: inline-flex;
-	justify-content: center;
 	align-items: flex-start;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
 }
 
 .colours {
