@@ -8,7 +8,7 @@ font-family: 'Playfair Display', serif;
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Playfair Display", sans-serif;
 }
 
 body {
@@ -76,9 +76,14 @@ nav ul li {
 
 .container div {
 	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 150px;
 	width: 150px;
 	margin: 30px;
+
+
 }
 
 .base-colour {
@@ -143,4 +148,25 @@ nav ul li {
 	padding: 20px;
 	width: 300px;
 	height: 200px;
+}
+
+.fonts p {
+	text-align: left;
+}
+
+
+.font-open-sans h3 {
+	font-family: "Open Sans", sans-serif;
+}
+
+.font-open-sans p {
+	font-family: "Open Sans", sans-serif;
+}
+
+.font-open-sans strong {
+	font-family: "Open Sans", sans-serif;
+}
+
+.font-open-sans em {
+	font-family: "Open Sans", sans-serif;
 }
