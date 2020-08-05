@@ -57,6 +57,12 @@ nav ul li {
 	font-size: 1.2rem;
 }
 
+.container {
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 .colours {
 	border: 2px solid lightgray;
 	margin: 30px;
@@ -66,9 +72,8 @@ nav ul li {
 
 }
 
-.colours div {
+.container div {
 	border-radius: 100%;
-	display: inline-block;
 	height: 150px;
 	width: 150px;
 	margin: 30px;
